@@ -23,6 +23,7 @@ describe('Pruebas E2E - Conexión Live Network con Supabase', () => {
     expect(primerReporte).toHaveProperty('votes');
     
     console.log(`\n🚀 ¡Éxito! Se descargaron ${reports.length} reportes reales desde Supabase.`);
+    console.log(reports)
   });
   
 });
